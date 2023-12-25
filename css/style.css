@@ -1,0 +1,1666 @@
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0px;
+    padding: 0px;
+}
+body{}
+.header{
+    display: inline-flex;
+    width: 100%;
+}
+.logo{
+    margin-left: 52px;
+    margin-top: 10px;
+}
+.logo h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #11cd11;
+    font-family: 'Engagement', cursive;
+}
+.menubar{
+    margin-top: 9px;
+}
+.menubar nav{}
+.menubar nav ul{}
+.menubar nav ul li{
+    display: inline;
+}
+.sorejaw{
+    margin-left: 533px;
+}
+.menubar nav ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 10px;
+    font-size: 35px;
+    color: black;
+    font-family: 'Cookie';
+}
+.menubar nav ul li a:hover{
+    color: #11cd11;
+    transition: 0.5s;
+}
+.search{
+    margin-top: 35px;
+    margin-left: 25px;
+}
+.search i{
+    color: #11cd11;
+}
+.banner{
+    display: inline-flex;
+    width: 100%;
+}
+.content{
+    width: 50%;
+    text-transform: capitalize;
+}
+.content h1{
+    font-size: 7vw;
+    text-indent: 78px;
+    padding-top: 38px;
+    color: #11cd11;
+}
+.content h2{
+    text-indent: 78px;
+    font-size: 5vw;
+    margin-top: -16px;
+}
+.content h3{
+    text-indent: 78px;
+    font-size: 6vw;
+    margin-top: -7px;
+}
+.healthy{
+    color: #11cd11;
+}
+.content p{
+    width: 74%;
+    margin-left: 78px;
+    font-size: 17px;
+}
+.content button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 78px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.content button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.contentimage{
+    width: 50%;
+}
+.contentimage img{
+    width: 100%;
+}
+.welcome{
+    width: 100%;
+    display: inline-flex;
+    padding-top: 60px;
+}
+.welcomeimage{
+    width: 50%;
+}
+.welcomeimage img{
+    width: 100%;
+}
+.welcomecontent{
+    width: 50%;
+    text-transform: capitalize;
+}
+.welcomecontent h1{
+    text-indent: 32px;
+    font-size: 3vw;
+}
+.welcomecontent h2{
+    text-indent: 32px;
+    font-size: 42px;
+    color: #11cd11;
+}
+.welcomecontent p{
+    width: 90%;
+    margin-left: 33px;
+    font-size: 18px;
+    line-height: 27px;
+}
+.welcomecontent button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 6px;
+    margin-left: 33px;
+    border-radius: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.welcomecontent button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.special{
+    width: 100%;
+    display: inline-flex;
+    padding-top: 60px;
+
+}
+.sone{
+    width: 305px;
+    text-align: center;
+    text-transform: capitalize;
+    margin-right: 15px;
+    box-shadow: 2px 2px 7px #0000003d;
+}
+.soro{
+    margin-left: 150px;
+}
+.sone img{
+    width: 100%;
+}
+.sone h1{
+    font-size: 3vw;
+    font-family: 'Cookie', cursive;
+    color: #11cd11;
+}
+.sone h2{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    width: 90%;
+    margin-left: 18px;
+    margin-top: 7px;
+}
+.sone p{
+    width: 90%;
+    margin-left: 17px;
+    font-size: 15px;
+    margin-top: 13px;
+    text-align: justify;
+}
+
+.sone button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.sone button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.find{
+    width: 100%;
+    display: inline-flex;
+    text-transform: capitalize;
+    margin-top: 60px;
+}
+.findcontent{
+    width: 50%;
+    padding-top: 150px;
+}
+.findcontent h1{
+    text-indent: 33px;
+    font-size: 4vw;
+}
+.findcontent h2{
+    text-indent: 33px;
+    font-size: 4vw;
+}
+.findcontent p{
+    margin-left: 33px;
+    font-size: 19px;
+    width: 89%;
+    margin-top: 17px;
+}
+.findcontent input{
+    margin-left: 33px;
+    margin-top: 29px;
+    padding: 10px;
+    width: 269px;
+    border: 1.5px solid green;
+    border-radius: 5px;
+}
+.findcontent button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 6px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.findcontent button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.findimage{
+    width: 50%;
+}
+.findimage img{
+    width: 100%;
+}
+.menu{
+    width: 100%;
+}
+.menuheading{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+}
+.menuheading h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #11cd11;
+    font-size: 3vw;
+}
+.allitem{
+    display: inline-flex;
+}
+.item{
+    width: 330px;
+    text-align: center;
+    margin-right: 15px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.soroo{
+    margin-left: 102px;
+}
+.item img{
+    width: 100%;
+    height: 60%;
+}
+.item h1{
+    color: #11cd11;
+}
+.item p{}
+.chef{
+    width: 100%;
+}
+.chefheading{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    display: inline-flex;
+    width: 100%;
+}
+.chefheading h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #11cd11;
+    font-size: 3vw;
+    
+}
+.allchef{
+    display: inline-flex;
+}
+.chefone{
+    width: 350px;
+    text-transform: capitalize;
+    text-align: center;
+    margin-right: 15px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px black;
+}
+.sorooo{
+    margin-left: 80px;
+}
+.chefone img{
+    width: 100%;
+}
+.chefone h1{
+    font-family: 'Cookie', cursive;
+    color: #11cd11;
+    font-size: 3vw;
+}
+.chefone p{
+    width: 88%;
+    margin-left: 18px;
+}
+.chefone button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+
+.last{
+
+}
+.lineone{
+    width: 100px;
+    height: 5px;
+    background: #11cd11;
+    margin-left: 455px;
+    margin-top: 20px;
+    margin-right: 5px;
+}
+.linetwo{
+    width: 100px;
+    height: 5px;
+    background: #11cd11;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+.aktuu{
+    margin-left: 383px;
+}
+.rating{
+    margin-top: 60px;
+    width: 100%;
+    margin-top: 60px;
+}
+.ratingheading{
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 50px;
+    
+}
+.ratingheading h1{
+    text-align: center;
+    text-transform: capitalize;
+    color: #11cd11;
+    font-size: 3vw;
+}
+.rsoro{
+    margin-left: 455px;
+}
+.ratingone{
+    display: inline-flex;
+    margin-right: 52px;
+}
+.ratingone h1{
+    text-transform: capitalize;
+    font-size: 4vw;
+    color: black;
+    margin-right: 20px;
+    font-family: 'Cookie', cursive;
+}
+.ratingone p{
+    color: black;
+    margin-left: 23px;
+    margin-top: 9px;
+    font-weight: 700;
+    font-size: 2vw;
+}
+.lline{
+    width: 200px;
+    height: 8px;
+    background: #d6d1d1;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.rline{
+    width: 190px;
+    height: 8px;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+    border-radius: 5px;
+    margin-left: -199px;
+    margin-top: 20px;
+}
+.allratingone{
+    display: inline-flex;
+}
+.allratingtwo{
+    display: inline-flex;
+}
+.decoration{
+    width: 160px !important;
+}
+.behave{
+    width: 200px !important;
+}
+.cruel{
+    width: 50px !important;
+}
+.dp{
+    margin-left: 52px !important;
+}
+.bp{
+    margin-left: 10px !important;
+}
+.cp{
+    margin-left: 161px !important;
+}
+.alllogo{
+    display: inline-flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.facebookk{
+    margin-left: 5px;
+}
+.facebookk img{
+    width: 50px;
+
+}
+.instagramm{
+    margin-left: 5px;
+}
+.instagramm img{
+    width: 50px;
+}
+.twitterr{
+    margin-left: 5px;
+}
+.twitterr img{
+    width: 50px;
+}
+.allr{
+    width: 72%;
+    margin-left: 178px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px black;
+    height: 185px;
+    padding-top: 51px;
+    padding-left: 10px;
+}
+
+.menus{
+    width: 100%;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.allmenus{
+    display: inline-flex;
+    width: 100%;
+}
+.menuone{
+    width: 270px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius: 10px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+.soroooo{
+    margin-left: 56px;
+}
+.menuone img{
+    width: 100%;
+    height: 220px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+.menuone h1{
+    font-size: 2vw;
+}
+.menuone p{
+    font-size: 19px;
+    font-weight: 700;
+    font-family: 'Engagement';
+    margin-top: 5px;
+}
+.menuone button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.menuone button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.signup{
+    width: 100%;
+    display: inline-flex;
+    margin-top: 60px;
+    padding-top: 20px;
+}
+.signupimage{
+    width: 50%;
+    margin-left: 55px;
+}
+.signupimage img{
+    width: 100%;
+    border-radius: 10px;
+}
+.signupform{
+    width: 50%;
+    padding-top: 37px;
+}
+.form{
+    width: 400px;
+    background:transparent;
+    margin-left: 105px;
+    text-align: center;
+    padding-top: 10px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    box-shadow: 2px 2px 4px black;
+}
+.form h1{
+    text-transform: capitalize;
+    font-size: 50px;
+    color: #11cd11;
+    font-family: 'Engagement', cursive;
+    margin-bottom: 10px;
+}
+.form input{
+    width: 84%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #11cd11;
+    color: black;
+    text-transform: capitalize;
+}
+.form::placeholder{
+}
+.form button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 140px;
+    border: none;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+    margin-bottom: 10px;
+}
+.form button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+
+.footer{
+    width: 100%;
+    display: inline-flex;
+    background: black;
+    color: white;
+    padding-top: 50px;
+    margin-top: 60px;
+    height: 288px;
+}
+.footerone{
+    width: 25%;
+    text-align: left;
+    border-right: 1px solid #11cd11;
+    padding-left: 20px;
+}
+.footerone h1{
+    text-transform: capitalize;
+    font-size: 72px;
+    color: #11cd11;
+    font-family: 'Engagement', cursive;
+}
+.footerone p{
+    width: 69%;
+    text-transform: capitalize;
+}
+.footertwo{
+    width: 25%;
+    text-align: left;
+}
+.footertwo h1{
+    text-transform: capitalize;
+    font-size: 3vw;
+    text-indent: 38px;
+}
+.footertwo ul{
+    list-style: none;
+}
+.footertwo ul li{
+    
+}
+.footertwo ul li a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Cookie';
+}
+.footertwo ul li a:hover{
+    color: #11cd11;
+}
+.footerthree{
+    width: 25%;
+
+}
+.footerthree h1{
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+.footerthree input{
+    width: 74%;
+    padding: 8px;
+    margin-bottom: 5px;
+}
+.footerthree button{
+    padding: 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    color: white;
+    background: linear-gradient(45deg, #099409, #0acb0a);
+}
+.footerthree button:hover{
+    background: linear-gradient(45deg, #0acb0a , #099409);
+    transition: 2s;
+}
+.footerfour{
+    width: 25%;
+}
+.footerfour h1{
+    text-transform: capitalize;
+    font-size: 3vw;
+    margin-bottom: 20px;
+}
+.footerfour iframe{
+    width: 92%;
+}
+
+.fce{}
+.fce img{
+    width: 37px;
+}
+.ins{
+    margin-left: 5px;
+}
+.ins img{
+    width: 37px;
+}
+.twi{
+    margin-left: 5px;
+}
+.twi img{
+    width: 37px;
+}
+.tora{
+    display: inline-flex;
+    margin-left: 64px;
+    margin-top: 5px;
+}
+.last{
+    width: 100%;
+    text-align: center;
+    margin-top: -31px;
+}
+.last p{
+    color: white;
+    text-transform: capitalize;
+}
+.last p a{
+    color: white;
+    text-decoration: none;
+}
+
+
+
+@media screen and (min-width:320px) and (max-width:425px){
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{}
+    .header{
+        display: inline-block;
+    }
+    .logo{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .logo h1{
+        text-align: center;
+        font-size: 20vw;
+    }
+    .menubar{
+        display: none;
+    }
+    .menubar nav{}
+    .menubar nav ul{}
+    .menubar nav ul li{
+        
+    }
+    .sorejaw{
+        
+    }
+    .menubar nav ul li a{
+        
+    }
+    .menubar nav ul li a:hover{}
+    .search{
+        display: none;
+    }
+    .search i{
+        
+    }
+    .banner{
+        display: inline-block;
+        background: url(../images/food1.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 400px;
+    }
+    .content{
+        width: 100%;
+    }
+    .content h1{
+        text-indent: 36px;
+        font-size: 17vw;
+        text-shadow: 2px 2px 3px black;
+    }
+    .content h2{
+        text-indent: 36px;
+        font-size: 17vw;
+        color: #11cd11;
+        text-shadow: 2px 2px 3px black;
+    }
+    .content h3{
+        text-indent: 36px;
+        font-size: 15vw;
+        color: #11cd11;
+        text-shadow: 2px 2px 3px black;
+    }
+    .healthy{
+        
+    }
+    .content p{
+        margin-left: 41px;
+        background: #ffffff6e;
+    `border-radius: 5px;
+
+    }
+    .content button{
+        
+    }
+    .content button:hover{
+        
+    }
+    .contentimage{
+        display: none;
+    }
+    .contentimage img{
+        
+    }
+    .welcome{
+        display: inline-block;
+        text-align: center;
+    }
+    .welcomeimage{
+       display: none;
+    }
+    .welcomeimage img{
+        
+    }
+    .welcomecontent{
+        width: 100%;
+    }
+    .welcomecontent h1{
+        text-align: center;
+        font-size: 11vw;
+    }
+    .welcomecontent h2{
+        text-align: center;
+        margin-top: -4px;
+    }
+    .welcomecontent p{
+        width: 100%;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .welcomecontent button{
+        
+    }
+    .welcomecontent button:hover{
+        
+    }
+    .special{
+        display: inline-block;
+    
+    }
+    .sone{
+        margin-bottom: 10px;
+        width: 100%;
+    }
+    .soro{
+        margin-left: 0px;
+    }
+    .sone img{
+       
+    }
+    .sone h1{
+        font-size: 11vw;
+    }
+    .sone h2{
+        
+    }
+    .sone p{
+        
+    }
+    
+    .sone button{
+       
+    }
+    .sone button:hover{
+        
+    }
+    .find{
+        display: inline-block;
+        margin-top: 10px;
+        text-align: center;
+    }
+    .findcontent{
+        width: 100%;
+        margin-left: 0px;
+        padding-top: 0px;
+    }
+    .findcontent h1{
+        font-size: 9vw;
+        text-indent: 0px;
+    }
+    .findcontent h2{
+        font-size: 9vw;
+        text-indent: 0px;
+    }
+    .findcontent p{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .findcontent input{
+        margin-left: 0px;
+    }
+    .findcontent button{
+        
+    }
+    .findcontent button:hover{
+        
+    }
+    .findimage{
+        display: none;
+    }
+    .findimage img{
+        
+    }
+    .menu{
+        
+    }
+    .menuheading{
+        
+    }
+    .menuheading h1{
+        font-size: 7vw;
+    }
+    .allitem{
+        display: inline-block;
+    }
+    .item{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .soroo{
+        margin-left: 0px;
+    }
+    .item img{
+        
+    }
+    .item h1{
+        
+    }
+    .item p{}
+    .chef{
+        
+    }
+    .chefheading{
+        
+    }
+    .chefheading h1{
+        font-size: 7vw;
+        
+    }
+    .allchef{
+        display: inline-block;
+    }
+    .chefone{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .sorooo{
+        margin-left: 0px;
+    }
+    .chefone img{
+        
+    }
+    .chefone h1{
+       font-size: 10vw;
+    }
+    .chefone p{
+        
+    }
+    .chefone button{
+        
+    }
+    
+    .last{
+    
+    }
+    .lineone{
+        margin-left: 0px;
+    }
+    .linetwo{
+        
+    }
+    .aktuu{
+       
+    }
+    .rating{
+        display: none;
+    }
+    .ratingheading{
+        
+        
+    }
+    .ratingheading h1{
+        
+    }
+    .rsoro{
+        
+    }
+    .ratingone{
+        
+    }
+    .ratingone h1{
+        
+    }
+    .ratingone p{
+        
+    }
+    .lline{
+        
+    }
+    .rline{
+        
+    }
+    .allratingone{
+        display: inline-block;
+    }
+    .allratingtwo{
+        
+    }
+    .decoration{
+        
+    }
+    .behave{
+        
+    }
+    .cruel{
+        
+    }
+    .dp{
+        
+    }
+    .bp{
+        
+    }
+    .cp{
+        
+    }
+    .alllogo{
+        
+    }
+    .facebookk{
+        
+    }
+    .facebookk img{
+       
+    
+    }
+    .instagramm{
+        
+    }
+    .instagramm img{
+        
+    }
+    .twitterr{
+        
+    }
+    .twitterr img{
+        
+    }
+    .allr{
+        width: 100%;
+        margin-left: 0px;
+    }
+    
+    .menus{
+        
+    }
+    .allmenus{
+        display: inline-block;
+    }
+    .menuone{
+        margin-left: 40px;
+    }
+    .soroooo{
+        margin-left: 40px;
+    }
+    .menuone img{
+        
+    }
+    .menuone h1{
+        
+    }
+    .menuone p{
+        
+    }
+    .menuone button{
+       
+    }
+    .menuone button:hover{
+        
+    }
+    .signup{
+        display: inline-block;
+        margin-top: 10px;
+    }
+    .signupimage{
+       display: none;
+    }
+    .signupimage img{
+        
+    }
+    .signupform{
+        width: 100%;
+    }
+    .form{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .form h1{
+        
+    }
+    .form input{
+        
+    }
+    .form::placeholder{
+    }
+    .form button{
+        
+    }
+    .form button:hover{
+        
+    }
+    
+    .footer{
+        display: none;
+    }
+    .footerone{
+        
+    }
+    .footerone h1{
+        
+    }
+    .footerone p{
+    }
+    .footertwo{
+        
+    }
+    .footertwo h1{
+        
+    }
+    .footertwo ul{
+        
+    }
+    .footertwo ul li{
+        
+    }
+    .footertwo ul li a{
+        
+    }
+    .footertwo ul li a:hover{
+        
+    }
+    .footerthree{
+        
+    
+    }
+    .footerthree h1{
+        
+    }
+    .footerthree input{
+       
+    }
+    .footerthree button{
+        
+    }
+    .footerthree button:hover{
+        
+    }
+    .footerfour{
+        
+    }
+    .footerfour h1{
+       
+    }
+    .footerfour iframe{
+        
+    }
+    
+    .fce{}
+    .fce img{
+        
+    }
+    .ins{
+       
+    }
+    .ins img{
+       
+    }
+    .twi{
+        
+    }
+    .twi img{
+        
+    }
+    .tora{
+       
+    }
+    .last{
+      margin-top: 20px;
+    }
+    .last p{
+        color: black;
+    }
+    .last p a{
+        color: black;
+    }
+}
+
+
+@media screen and (min-width:426px) and (max-width:768px){
+    h1,h2,h3,h4,h5,h6,p{
+        margin: 0px;
+        padding: 0px;
+    }
+    body{}
+    .header{
+        
+    }
+    .logo{
+        
+    }
+    .logo h1{
+        
+    }
+    .menubar{
+        width: 100%;
+    }
+    .menubar nav{}
+    .menubar nav ul{}
+    .menubar nav ul li{
+        
+    }
+    .sorejaw{
+        margin-left: 20%;
+    }
+    .menubar nav ul li a{
+        
+    }
+    .menubar nav ul li a:hover{}
+    .search{
+        
+    }
+    .search i{
+        
+    }
+    .banner{
+        
+    }
+    .content{
+        
+    }
+    .content h1{
+        
+    }
+    .content h2{
+        
+    }
+    .content h3{
+        
+    }
+    .healthy{
+        
+    }
+    .content p{
+        
+    }
+    .content button{
+        
+    }
+    .content button:hover{
+        
+    }
+    .contentimage{
+        
+    }
+    .contentimage img{
+        
+    }
+    .welcome{
+        display: inline-block;
+    }
+    .welcomeimage{
+       width: 100%;
+    }
+    .welcomeimage img{
+        
+    }
+    .welcomecontent{
+        width: 100%;
+        text-align: center;
+    }
+    .welcomecontent h1{
+        font-size: 6vw;
+    }
+    .welcomecontent h2{
+        
+    }
+    .welcomecontent p{
+       
+    }
+    .welcomecontent button{
+        
+    }
+    .welcomecontent button:hover{
+        
+    }
+    .special{
+        
+    
+    }
+    .sone{
+        margin-right: 1%;
+    }
+    .soro{
+        margin-left: 1%;
+    }
+    .sone img{
+       
+    }
+    .sone h1{
+       
+    }
+    .sone h2{
+        
+    }
+    .sone p{
+        margin-left: 5%;
+        text-align: justify !important;
+    }
+    
+    .sone button{
+       
+    }
+    .sone button:hover{
+        
+    }
+    .find{
+        
+    }
+    .findcontent{
+        
+    }
+    .findcontent h1{
+        
+    }
+    .findcontent h2{
+        
+    }
+    .findcontent p{
+        
+    }
+    .findcontent input{
+        
+    }
+    .findcontent button{
+        margin-left: 9%;
+    }
+    .findcontent button:hover{
+        
+    }
+    .findimage{
+        
+    }
+    .findimage img{
+        
+    }
+    .menu{
+        
+    }
+    .menuheading{
+        
+    }
+    .menuheading h1{
+        font-size: 4vw;
+    }
+    .allitem{
+        display: inline-block;
+        width: 100%;
+    }
+    .item{
+        width: 100%;
+    }
+    .soroo{
+        margin-left: 0px;
+    }
+    .item img{
+        
+    }
+    .item h1{
+        font-size: 4vw;
+    }
+    .item p{}
+    .chef{
+        
+    }
+    .chefheading{
+        
+    }
+    .chefheading h1{
+        
+        
+    }
+    .allchef{
+        display: inline-block;
+    }
+    .chefone{
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .sorooo{
+        margin-left: 0px;
+    }
+    .chefone img{
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+    .chefone h1{
+        font-size: 6vw;
+    }
+    .chefone p{
+        
+    }
+    .chefone button{
+        
+    }
+    
+    .last{
+    
+    }
+    .lineone{
+        margin-left: 31%;
+    }
+    .linetwo{
+        
+    }
+    .aktuu{
+        margin-left: 25%;
+    }
+    .rating{
+        
+    }
+    .ratingheading{
+        
+        
+    }
+    .ratingheading h1{
+        font-size: 4vw;
+    }
+    .rsoro{
+        
+    }
+    .ratingone{
+        
+    }
+    .ratingone h1{
+        
+    }
+    .ratingone p{
+        
+    }
+    .lline{
+        
+    }
+    .rline{
+        
+    }
+    .allratingone{
+        width: 100%;
+    }
+    .allratingtwo{
+        width: 100%;
+    }
+    .decoration{
+        
+    }
+    .behave{
+        
+    }
+    .cruel{
+        
+    }
+    .dp{
+        
+    }
+    .bp{
+        
+    }
+    .cp{
+        
+    }
+    .alllogo{
+        
+    }
+    .facebookk{
+        
+    }
+    .facebookk img{
+       
+    
+    }
+    .instagramm{
+        
+    }
+    .instagramm img{
+        
+    }
+    .twitterr{
+        
+    }
+    .twitterr img{
+        
+    }
+    .allr{
+        margin-left: 0px;
+        width: 99%;
+    }
+    .one{
+        display: none;
+    }
+    .two{
+        display: none;
+    }
+    .menus{
+        
+    }
+    .allmenus{
+        
+    }
+    .menuone{
+        
+    }
+    .soroooo{
+        margin-left: 2%;
+    }
+    .menuone img{
+        
+    }
+    .menuone h1{
+        
+    }
+    .menuone p{
+        
+    }
+    .menuone button{
+       
+    }
+    .menuone button:hover{
+        
+    }
+    .signup{
+        width: 100%;
+    }
+    .signupimage{
+       width: 50%;
+       margin-left: 0px;
+       margin-top: 36px;
+    }
+    .signupimage img{
+        width: 100%;
+    }
+    .signupform{
+        width: 50%;
+        padding-top: 0px;
+    }
+    .form{
+        margin-left: 22px;
+        width: 89%;
+    }
+    .form h1{
+        
+    }
+    .form input{
+        
+    }
+    .form::placeholder{
+    }
+    .form button{
+        
+    }
+    .form button:hover{
+        
+    }
+    
+    .footer{
+    }
+    .footerone{
+        border-right: none;
+    }
+    .footerone h1{
+        font-size: 8vw;
+    }
+    .footerone p{
+        
+    }
+    .footertwo{
+        
+    }
+    .footertwo h1{
+        font-size: 4vw;
+    }
+    .footertwo ul{
+        margin-top: 37px;
+        margin-left: 25px;
+    }
+    .footertwo ul li{
+        
+    }
+    .footertwo ul li a{
+        
+    }
+    .footertwo ul li a:hover{
+        
+    }
+    .footerthree{
+        
+    
+    }
+    .footerthree h1{
+        font-size: 4vw;
+        margin-bottom: 9px;
+    }
+    .footerthree input{
+       
+    }
+    .footerthree button{
+        
+    }
+    .footerthree button:hover{
+        
+    }
+    .footerfour{
+        
+    }
+    .footerfour h1{
+        font-size: 4vw;
+    }
+    .footerfour iframe{
+        
+    }
+    
+    .fce{}
+    .fce img{
+        
+    }
+    .ins{
+       
+    }
+    .ins img{
+       
+    }
+    .twi{
+        
+    }
+    .twi img{
+        
+    }
+    .tora{
+        margin-left: 20px;
+    }
+    .last{
+      
+    }
+    .last p{
+        
+    }
+    .last p a{
+        
+    }
+}
